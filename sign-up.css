@@ -2,7 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: sans-serif;
+    font-family: 'industry','Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 body{
     height: 100vh;
@@ -26,7 +26,7 @@ body{
     padding: 7px;
     text-align: center;
     border-radius: 10px 10px 0 0;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
     text-transform: capitalize;
 }
 .log-info{
@@ -36,17 +36,18 @@ body{
     padding: 15px 80px;
 }
 .log-info h3{
-    color: #F9FCFC;
+    color:#F9FCFC;
     font-size: 15px;
     padding: 0 20px;
-    margin-bottom:20px;
+    margin-bottom: 32px;
+    font-weight: 500;
 }
 input{
     height: 37px;
     width: 100%;
     background:#212121;
     margin-bottom: 15px;
-    border: 1px solid #a8b1c0;
+    border: 1px solid  #4C5050;
     padding: 0 10px;
     color: white;
     font-size: 13px;
@@ -56,23 +57,23 @@ input:nth-child(5){
     margin-bottom: 5px;
 }
 input::placeholder{
-    color: gray;
+    color: #F9FCFC;
     font-size: 13px;
 }
 button{
     height: 37px;
     width: 100%;
-    background:#a8b1c0;
-    margin-bottom: 20px;
+    background:#E2EEEE;
+    margin-bottom: 15px;
     border: none;
     cursor: pointer;
     font-size: 17px;
-    font-weight: 600;
-    color: #2a2828;
+    font-weight: 500;
+    color: #212121;
     transition: 0.5s;
 }
 button:hover{
-    background: #6e82a5;
+    background: #b0c8c8;
 }
 .log-info p{
     font-size: 13px;
