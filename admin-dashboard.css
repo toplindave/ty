@@ -1,0 +1,247 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'industry','Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+body{
+    height: 100vh;
+    background: #d7d2d0;
+    width: 100vw;
+}
+.side-bar{
+    height: 100vh;
+    background: #FDF4F1;
+    box-shadow: 0px 3px 6px #E6C6BD;
+    width:15.3%;
+    padding: 112px 0px 0px 0px;
+    z-index: 2;
+    position: fixed;
+    left: 0;
+    top: 0;
+}
+.side-bar-link{
+    width: auto;
+}
+.side-bar-link ul{
+    list-style: none;
+}
+.side-bar-link ul li{
+    width: 100%;
+    height: 40px;
+    padding: 7px 0px 0px 45px;
+}
+.side-bar-link ul li.active{
+    background: #E6C6BD;
+}
+.side-bar-link ul li:hover{
+    background: #E6C6BD;
+}
+.side-bar-link ul li a{
+    text-decoration: none;
+    font-family: 'inter';
+    font-weight: normal;
+    color: #584B26;
+    display: flex;
+    align-items: center;
+}
+.side-bar-link ul li a svg{
+    width: 20px;
+    height: 20px;
+    fill: #584B26;
+    margin-right: 15px;
+}
+.top-bar{
+    background: #FDF4F1;
+    width: 84.7%;
+    height: 60px;
+    z-index: 3;
+    position: fixed;
+    top: 0;
+    right: 0;
+}
+.up{
+    width: auto;
+    height: 60px;
+    background: #FDF4F1;
+    box-shadow: 0px 3px 6px #E6C6BD;
+    border-radius: 0px 10px 0px 0px;
+    padding: 14px 65px 13px 64px;
+    display: flex;
+    justify-content: space-between;
+    z-index: 8;
+}
+.up input{
+    width: 485px;
+    height: 33px;
+    border: 0.5px solid #917B42;
+    border-radius: 10px;
+    background: transparent;
+    stroke: none;
+    padding: 9px 20px;
+    text-align: left;
+    font: normal normal medium 12px/15px Inter;
+    letter-spacing: 0px;
+    color: #584B26;
+    text-transform: capitalize;
+}
+.up input::placeholder{
+    text-align: left;
+    font: normal normal medium 12px/15px Inter;
+    letter-spacing: 0px;
+    color: #584B26;
+}
+.notification{
+    width: 205px;
+    display: flex;
+    align-items: center;
+    padding: 0px 2px 0px 2px;
+}
+.notification svg{
+    width: 20px;
+    height: 20px;
+    fill: #584B26;
+    margin-right: 30px;
+}
+.user{
+    display: flex;
+    align-items: center;
+}
+.user svg{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    border: 0.5px solid #707070;
+    fill: #584B26;
+    background: #707070;
+    margin-right: 10px;
+    opacity: 90%;
+}
+.sue{
+    display: flex;
+    color: #584B26;
+    font-size: 12px;
+    font-family: 'inter';
+    font-weight: 500;
+    align-items: center;
+}
+.sue svg{
+    width: 10px;
+    height: 10px;
+    border-radius: 0%;
+    border: none;
+    background: transparent;
+    margin-left: 5px;
+}
+.back-dash{
+    background: #e1d7d5;
+    height: 100vh;
+    width: 84.7%;
+    z-index: 1;
+    position: fixed;
+    top: 60px;
+    right: 0;
+}
+.dashboard{
+    background: #FDF4F1;
+    padding: 19px 70px 30px 25px;
+}
+.dashboard h2{
+    color: #917B42;
+    font-size: 24px;
+    font-weight: 500;
+    font-family: 'inter';
+    margin-bottom: 30px;
+}
+.board{
+    width: auto;
+    display: flex;
+}
+.sales{
+    width: 350px;
+    height: 80px;
+    background: #FFFFFF;
+    box-shadow: 0px 3px 6px #E6C6BD;
+    margin-right: 10px;
+    display: flex;
+    align-items: center;
+    padding-left: 16px;
+}
+.sales .sv{
+    width: 60px;
+    height: 60px;
+    background: #DABDE6;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.sales:nth-child(2) .sv{
+    background: #AEC1F6;
+}
+.sales:nth-child(3) .sv{
+    background:#90D8A1;
+}
+.sales .sv svg{
+    width: 30px;
+    height: 30px; 
+    fill: #8223B8;
+}
+.sales:nth-child(2) .sv svg{
+    fill:#263A9C ; 
+}
+.sales:nth-child(3) .sv svg{
+    fill: #07481F;
+}
+.total{
+    margin-left:20px;
+}
+.total p{
+    color: #917B42;
+    opacity: 0.6;
+    font: 12px 'inter';
+}
+.total h3{
+    color:  #917B42;
+    font: 16px 'inter';
+    font-weight: bold;
+    margin-top: 3px;
+}
+.scroll{
+    padding: 19px 70px 30px 25px;   
+    overflow-y: scroll;
+    z-index: 1;
+    position: fixed;
+    height: 420px;
+    width: 84.7%;
+    background: #FDF4F1;
+    right: 0;
+    top: 246px;
+}
+.blank{
+    width: auto;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 107px;
+}
+.bla{
+    width: 65.8%;
+    height: 320px;
+    box-shadow: 0px 3px 6px #E6C6BD;
+    background: #FFFFFF;
+}
+.bla:nth-child(2){
+    width: 33%;
+}
+.recent h3{
+    font: 16px 'inter';
+    color: #917B42;
+    font-weight: 500;
+    margin-bottom: 15px;
+}
+.table{
+    width: 100%;
+    height: 600px;
+    background: #FFFFFF;
+    z-index: 1;
+}
