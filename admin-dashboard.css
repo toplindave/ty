@@ -265,7 +265,7 @@ body{
     text-align: center;
 }
 thead th, td{
-    /* border: 1px solid  #E6C6BD; */
+    border: 1px solid  transparent;
 }
 thead th{
     background: #584B26;
