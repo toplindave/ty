@@ -8,7 +8,9 @@ body{
     height: 100vh;
     background: #d7d2d0;
     width: 100vw;
+    background: white;
 }
+
 .side-bar{
     height: 100vh;
     background: #FDF4F1;
@@ -218,6 +220,13 @@ body{
     right: 0;
     top: 246px;
 }
+.scroll::-webkit-scrollbar{
+    width: 7px;
+}
+.scroll::-webkit-scrollbar-thumb{
+    background:#AEC1F6;
+    border-radius: 10px;
+}
 .blank{
     width: auto;
     display: flex;
@@ -239,9 +248,126 @@ body{
     font-weight: 500;
     margin-bottom: 15px;
 }
-.table{
+.table-1{
     width: 100%;
-    height: 600px;
+    height: auto;
     background: #FFFFFF;
     z-index: 1;
+}
+
+.table{
+    width: 100%;
+    height:auto;
+    background: #FDF4F1;
+    border-collapse: separate;
+    border: 1px solid  #E6C6BD;
+    border-radius: 10px 10px 0px 0px;
+    text-align: center;
+}
+thead th, td{
+    /* border: 1px solid  #E6C6BD; */
+}
+thead th{
+    background: #584B26;
+    height:40px;
+    font-size: 12px;
+    font-family: 'inter';
+    color: #ffffff;
+    font-weight: 500;
+}
+thead th:nth-child(1) {
+    width: 111px;
+    border-radius: 10px 0px 0px 0px;
+} 
+thead th:nth-child(2) {
+    width: 158px;
+} 
+thead th:nth-child(3) {
+    width: 153px;
+} 
+thead th:nth-child(4) {
+    width:62px;
+} 
+thead th:nth-child(5) {
+    width: 89px;
+} 
+thead th:nth-child(6) {
+    width: 154px;
+} 
+thead th:nth-child(7) {
+    width: 154px;
+} 
+thead th:nth-child(8) {
+    width: 169px;
+    border-radius: 0px 10px 0px 0px;
+} 
+td:nth-child(7){
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+tbody tr td{
+    background: #ffffff;
+    height:40px;
+    width: auto;
+    font-size: 12px;
+    color: #917B42;
+    font-weight: 500;
+    font-family: 'inter';
+    border: 1px solid #E6C6BD;
+}
+tbody tr:nth-child(5) td{
+    height:186px;
+}
+.Delivered{
+    width: 120px;
+    height: 25px;
+    border-radius: 15px;
+    background-color: #C4F3C1;
+    color: #0B5706;
+    font-size: 12px;
+    font-family: 'inter';
+    font-weight: 500;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+} 
+.Shipped{
+    width: 120px;
+    height: 25px;
+    border-radius: 15px;
+    background-color: #C1CEF3;
+    font-size: 12px;
+    font-family: 'inter';
+    font-weight: 500;
+    color: #1657B9;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+} 
+.Canceled{
+    width: 120px;
+    height: 25px;
+    border-radius: 15px;
+    background-color:#F8B8AB;
+    font-size: 12px;
+    font-family: 'inter';
+    font-weight: 500;
+    color: #E40C0C;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+} 
+.new-order{
+    width: 120px;
+    height: 25px;   
+    border-radius: 15px;
+    background-color: #FAF2BF;
+    font-size: 12px;
+    font-family: 'inter';
+    font-weight: 500;
+    color: #584B26;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
